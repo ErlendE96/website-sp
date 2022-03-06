@@ -1,0 +1,207 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size:20px;
+    width:100%;
+    font-family: arial;
+}
+
+
+  
+@font-face {
+    font-family: myFirstFont;
+    src: url(/font/BADABB__.ttf);
+  }
+
+
+.top-bar{
+    letter-spacing: 2px;
+    background-color:orange;
+    height:100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:1.8rem;
+    font-family: myFirstFont;
+}
+
+ 
+.top-bar2{
+    background-color:white;
+    height:30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom:solid;
+    border-width:1px;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar-text{
+    letter-spacing: 2px;
+    width:100%;
+    font-size:1.1rem;
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 30px;
+    justify-content: center;
+    font-family: myFirstFont;
+}
+.hamburger-icon{
+    display: none;
+}
+#menu-checkbox:checked ~ .hamburgeritems {
+    display: block;
+}
+
+.hamburgeritems, #menu-checkbox {
+    display: none;
+}
+.hamburgeritems a {
+    display: none;
+}
+
+.hamburgeritems, .hamburger-icon{
+    background-color:white;
+    width:100%;
+}
+
+.hamburgeritems{
+    background-color:grey;
+    width:150px;
+    position:absolute;
+    padding:10px 20px;
+}
+.buttons{
+    text-align: center;
+    font-family: myFirstFont;
+}
+
+.buttons1 {
+    letter-spacing: 2px;
+    background-color: orange;
+    padding:20px 40px;
+    border-radius:10px;
+    width:100%;
+    margin:20px;
+    position:relative;
+    top:170px;
+    font-size: 30px;
+}
+
+.maintext{
+    letter-spacing: 2px;
+    color:white;
+    text-align:center;
+    font-family: myFirstFont;
+}
+.texta{
+    width:100%;
+    max-width:800px;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+.textb1{
+    width:100%;
+    max-width:600px;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    border-width: 1px;
+    background-color:white;
+    border-radius:10px;
+    margin-top:40px;  
+}
+
+.textb2{
+    width:100%;
+    max-width:800px;
+    text-align:center;
+    margin:40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    border-width: 1px;
+    background-color:white;   
+}
+.text1{
+    color:white;
+}
+
+
+.text2{
+    text-align:center;
+
+
+}
+.heading1{
+    letter-spacing: 2px;
+    font-family: myFirstFont;
+    margin-top:10px;
+    margin-bottom: 0px;
+    text-align:center;
+    font-size: 1.5rem;
+}
+
+.heading{
+    letter-spacing: 2px;
+    font-family: myFirstFont;
+    margin:0px;
+    text-align:center;
+    font-size: 1.5rem;
+    margin-top:20px;
+}
+.image{
+    width:45px;
+    height:45px;
+}
+.image1{
+    width:100%;
+}
+
+.purple{
+    color:#CE00FF;
+}
+
+.green{
+    color:#00FF44;
+}
+
+.orange{
+    color:#FFB300;
+}
+
+.blue{
+    color:#1100FF;
+}
+
+.red{
+    color:#FF0000;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+    }
+
+    @media screen and (max-width:800px){
+        .hamburger-icon{
+            display: block;
+        }
+        .top-bar2{
+            display:none;
+        }
+        .hamburgeritems a {
+            display: block;
+        }
+        .textb1, .textb2{
+            border:none;
+        }
+
+    }
