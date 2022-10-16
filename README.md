@@ -1,4 +1,4 @@
-# website-sp
+# Science museum website
 
 Science museum website
 
@@ -19,5 +19,6 @@ A detailed work schedule was also created, which included:
 
 
 Built With
+
 The website was crated with html and css.
 
