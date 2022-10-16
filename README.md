@@ -1,6 +1,5 @@
 # Science museum website
 
-Science museum website
 
 ![image](https://user-images.githubusercontent.com/96021420/196046150-6baa2fc0-6988-498e-a328-62303ef77c0d.png)
 
