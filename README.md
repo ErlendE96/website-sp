@@ -4,7 +4,7 @@
 
 
 
-Website used for finding healthy food recipes.
+Website used to attract customers to the museum.
 
 ## Description
 The main goal of the website is to excite both the younger and the older audience in order to make them more lightly to visit the museum,
